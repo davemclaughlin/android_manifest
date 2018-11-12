@@ -1,0 +1,13 @@
+manifest>
+      <remote  name="aosp"
+               fetch="https://android.googlesource.com/"/>
+      <remote  name="axon"
+               fetch="https://github.com/davemclaughlin/"/>
+    
+      <default revision="master"
+               remote="aosp"
+               sync-j="4" />
+    
+      <project path="art" name="platform/art" />
+      <project path="bionic" name="platform/bionic" groups="pdk" />
+</manifest>
